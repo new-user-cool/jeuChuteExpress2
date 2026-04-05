@@ -1,0 +1,41 @@
+body {
+  text-align: center;
+}
+
+div#zone_de_jeu{
+  width:400px;
+  height:400px;
+  position: relative;
+  margin: auto;
+  border: solid;
+}
+
+
+div#rectangle_bleu{
+  position: absolute;
+  background-color: blue;
+  width:40px;
+  height:20px;
+  margin-top: 10px;
+  left: 175px ;
+  bottom: 10px;
+}
+
+div#rectangle_rouge{
+  position: absolute;
+  background-color: red;
+  width:40px;
+  height:20px;
+  left: 175px;
+  margin-top: 10px;
+}
+
+
+
+
+
+div#boutons {
+	padding: 8px 15px;
+  margin: 5px;
+  top: 10px;
+}

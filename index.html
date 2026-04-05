@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta name="viewport"
+  content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta charset="UTF-8">
+    <title>Chute Express</title>
+    <link rel="stylesheet" href="style.css">
+	
+</head>
+<body>
+	<h1> Chute Express  </h1>
+  <p>Niveau : <span id="Niveau">Facile</span></p>
+	<p> score :  <span id="score">0</span> </p>
+
+    <!--  zone de jeu ci-dessous avec les 2 rectangles-->
+	<div id="zone_de_jeu"> 
+	   <div id="rectangle_bleu"></div>
+	   <div id="rectangle_rouge"></div>
+    </div>
+	
+	
+	<!--  zone de commande ci-dessous avec les 2 boutons-->
+	<div id="boutons"> 
+    <input id="bouton_gauche" type="button" value="gauche">
+    <input id="bouton_droite" type="button" value="droite">
+    </br>
+    <input id="bouton_musique" type="button" value="Musique">
+  </div>
+	
+	
+<!-- Musique -->
+<audio id="music" loop>
+  <source src="Black Eyed Peas - Pump It.mp3" type="audio/mpeg">
+</audio>	
+
+<script src="script.js"></script>
+</body>
+</html>
